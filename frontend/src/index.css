@@ -62,3 +62,86 @@ button:hover {
   border:1px solid white;
   margin-top: 0;
 }
+
+@media screen and (max-width: 375px) {
+  body {
+    margin:0;
+    font-size: 1rem;
+  }
+  h1 {
+    
+    font-size:2rem;
+    margin-left: 70px;
+  }
+  h5{
+    font-size: .5rem;
+  }
+  .movieContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px ;
+  }
+  .activity {
+    font-size: 1.5rem;
+  }
+  button {
+    height:100px;
+    width:100px; 
+    margin-left: 129px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  body {
+    margin:0;
+    font-size: 1.6rem;
+  }
+  h1 {
+    
+    font-size:2.5rem;
+    margin-left: 50px;
+  }
+  h5{
+    font-size: .9rem;
+  }
+  .movieContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px ;
+  }
+  .activity {
+    font-size: 1.5rem;
+  }
+  button {
+    height:150px;
+    width:150px; 
+    margin-left: 129px;
+  }
+}
+@media screen and (max-width: 460px) {
+  body {
+    margin:0;
+    font-size: 1rem;
+  }
+  h1 {
+    
+    font-size:2rem;
+    margin-left: 70px;
+  }
+  h5{
+    font-size: .5rem;
+  }
+  .movieContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px ;
+  }
+  .activity {
+    font-size: 1.5rem;
+  }
+  button {
+    height:100px;
+    width:100px; 
+    margin-left: 129px;
+  }
+}
