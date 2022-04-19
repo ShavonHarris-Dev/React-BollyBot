@@ -25,9 +25,11 @@ console.log(display)
     <section>
       <h1> 🎬  Bolly BOT  🎬 </h1>
       <h2 className="activity">Get a Random BollyWood Movie</h2>
-      <h4>{newMovie.title} </h4>
-     < h4>{newMovie.year} </h4>
-     <h4>{newMovie.rating} </h4>
+    <div className="movieContainer">
+      <h4>Title: {newMovie.title}  </h4>
+     < h4> ..Year: {newMovie.year}    </h4>
+     <h4> ..Rating: {newMovie.rating} </h4>
+     </div>
       <button onClick={getRandomMovie}></button>
     </section>
   )
